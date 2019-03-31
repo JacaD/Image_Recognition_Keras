@@ -4,7 +4,7 @@ from tensorflow import keras
 
 batch_size = 64
 number_of_categories = 10
-epochs = 1
+epochs = 25
 
 with open('train.pickle', 'rb') as handle:
     x_train, y_train = pickle.load(handle)
